@@ -1,5 +1,6 @@
 //calculateTax
 function calculateTax(amount, taxRate) {
+    const taxRate = 0.1; // Example tax rate of 10%
     return amount * (taxRate / 100);
 }
 
